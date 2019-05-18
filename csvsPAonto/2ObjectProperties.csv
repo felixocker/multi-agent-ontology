@@ -1,0 +1,16 @@
+props,tbox,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,a,,,,a,a,a,a,a,a,a
+,,,owl:ObjectProperty,rdfs:subPropertyOf,rdfs:domain,rdfs:range,owl:FunctionalProperty,owl:InverseFunctionalProperty,owl:TransitiveProperty,owl:SymmetricProperty,owl:AsymmetricProperty,owl:ReflexiveProperty,owl:IrreflexiveProperty
+,,defines,x,,,,,,,,,,
+,,consistsOf,x,,,,,,x,,,,
+,,has,x,,,,,,,,,,
+,,realizes,x,,,,,,,,,,
+,,describes,x,,,,,,,,,,
+,,requires,x,,,,,,,,,,
+,,neighbours,x,,,,,,,x,,,
+,,capableOf,x,,,,,,,,,,
+,,precedes,x,,,,,,x,,,,
+,,fprecedes,x,,,,,,x,,,,
+,,fconflicts,x,,,,,,,x,,,
+,,frequires,x,,,,,,,,,,

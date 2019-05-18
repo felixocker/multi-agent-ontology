@@ -1,0 +1,11 @@
+meta,tbox,,,,,,,,,
+,,,,,,,,,,
+,,a,,rdfs:subClassOf,,rdfs:subClassOf,,rdfs:subClassOf,,rdfs:subClassOf
+,,rdfs:Class,,:feature,,:process,,:resource,,:specification
+,,specification,,none,,rollout,,lastResource,,specTypeA
+,,capability,,all,,diffusion,,resDiff,,specTypeB
+,,feature,,featDiff,,ionImplantation,,resIonImplant,,
+,,product,,featIonImplant,,lithography,,resLith,,
+,,process,,featLith,,handling,,resHandl,,
+,,resource,,featConfl,,buffering,,resBuff,,
+,,,,,,conflict,,resConfl,,

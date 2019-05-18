@@ -1,0 +1,14 @@
+props,tbox,,,,,,
+,,,,,,,
+,,,a,,,,a
+,,,owl:DatatypeProperty,rdfs:subPropertyOf,rdfs:domain,rdfs:range,owl:FunctionalProperty
+,,length,x,,,xsd:float,x
+,,width,x,,,xsd:float,x
+,,height,x,,,xsd:float,x
+,,xCoordinate,x,,,xsd:float,x
+,,yCoordinate,x,,,xsd:float,x
+,,zCoordinate,x,,,xsd:float,x
+,,requiredCapacity,x,,:process,xsd:float,x
+,,freeCapacity,x,,:resource,xsd:float,x
+,,duration,x,,:process,xsd:float,x
+,,deadline,x,,:specification,xsd:dateTime,x

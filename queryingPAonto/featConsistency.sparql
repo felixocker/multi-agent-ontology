@@ -1,0 +1,33 @@
+prefix : <http://PAonto.com#> 
+prefix owl: <http://www.w3.org/2002/07/owl#> 
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+
+SELECT DISTINCT ?spec ?type ?feat1 ?feat2 ?feat2class WHERE {
+	?spec a/rdfs:subClassOf* :specification . 
+	{
+		?spec :defines ?feat1 . 
+		?feat1 a ?feat1class . 
+		BIND("conflict violation" AS ?type) . 
+		?feat2 a ?feat2class . 
+		?spec :defines ?feat2 . 
+		?feat1class rdfs:subClassOf [
+			rdf:type owl:Restriction ; 
+			owl:onProperty :fconflicts ; 
+			owl:someValuesFrom ?feat2class ] . 
+	} UNION {
+		?spec :defines ?feat1 . 
+		?feat1 a ?feat1class . 
+		BIND("requires violation" AS ?type) . 
+		?feat1class rdfs:subClassOf [
+			rdf:type owl:Restriction ; 
+			owl:onProperty :frequires ; 
+			owl:someValuesFrom ?feat2class ] . 
+		FILTER NOT EXISTS {
+			?spec :defines ?x . 
+			?x a ?feat2class . 
+		}
+		BIND("-" AS ?feat2) . 
+	} 
+} ORDER BY ?spec ?type ?feat1

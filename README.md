@@ -21,9 +21,7 @@ Python 3.6+ is recommended for running the python scripts.
 For executing the SPARQL queries, e.g., [stardog](https://www.stardog.com/) can be used.
 
 ## License
+GPL v3.0
 
-For now, the following license holds:
-
-Copyright © 2019 Technical University of Munich - Institute of Automation and Information Systems. <http://www.ais.mw.tum.de/en/institute/>
-
-All rights reserved. Contact: [felix.ocker@tum.de](mailto:felix.ocker@tum.de)
+## Contact
+[felix.ocker@tum.de](mailto:felix.ocker@tum.de)

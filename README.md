@@ -1,5 +1,5 @@
 # multi-agent-ontology
-Source files for the RA-L / CASE 2019 paper "A Framework for Automatic Initialization of Multi-Agent Production Systems Using Semantic Web Technologies". The paper is authored by Felix Ocker, Ilya Kovalenko, Kira Barton, Dawn Tilbury, and Birgit Vogel-Heuser.  
+Source files for the RA-L/ CASE 2019 paper "A Framework for Automatic Initialization of Multi-Agent Production Systems Using Semantic Web Technologies". The paper is authored by Felix Ocker, Ilya Kovalenko, Kira Barton, Dawn Tilbury, and Birgit Vogel-Heuser.  
 The paper is published open access: https://ieeexplore.ieee.org/document/8779665  
 __Status__: Archive (code is provided as-is, no updates expected)
 
@@ -20,8 +20,24 @@ Python 3.6+ is recommended for running the python scripts.
 
 For executing the SPARQL queries, e.g., [stardog](https://www.stardog.com/) can be used.
 
+# Citation
+Please use the following bibtex entry:
+```
+@article{ocker2019ral,
+author={Ocker, Felix and Kovalenko, Ilya and Barton, Kira and Tilbury, Dawn and Vogel-Heuser, Birgit},
+title={A Framework for Automatic Initialization of Multi-Agent Production Systems Using Semantic Web Technologies},
+journal={Robotics and Automation Letters},
+volume={4},
+number={4},
+pages={4330--4337},
+year={2019},
+publisher={IEEE}
+}
+```
+
 ## License
 GPL v3.0
 
 ## Contact
-[felix.ocker@tum.de](mailto:felix.ocker@tum.de)
+Felix Ocker - [felix.ocker@tum.de](mailto:felix.ocker@tum.de)\
+Technical University of Munich - Institute of Automation and Information Systems <https://www.mw.tum.de/en/ais/homepage/>
